@@ -3,7 +3,7 @@ prompt_felipec_setup () {
   (( $+functions[__git_ps1] )) || __git_ps1 () {}
 
   PS1='%F{%(?.green.red)}❯%f '
-  RPS1='%F{blue}%B%~%b%f $(__git_ps1 "%%F{green}%%f %s") '
+  RPS1='%F{blue}%B%~%b%f$(__git_ps1 " %%F{green}%%f %s")'
   prompt_opts=(cr percent subst)
 }
 
