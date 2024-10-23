@@ -16,5 +16,5 @@ ZSH_THEME_GIT_PROMPT_DIVERGED='<>'
   echo "$(git_prompt_info)$(git_prompt_status)"
 }
 
-PS1='%F{%(?.green.red)}❯%f '
+PS1='%(!.%F{magenta}❯%f.)%F{%(?.green.red)}❯%f '
 RPS1='%F{blue}%B%~%b%f$(__git_ps1 " %%F{green}%%f %s")'
