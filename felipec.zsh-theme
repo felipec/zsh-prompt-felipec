@@ -14,7 +14,7 @@ ZSH_THEME_GIT_PROMPT_DIVERGED='<>'
 # Simulate __git_ps1
 # NOTE: you need to force async-prompt
 (( $+functions[__git_ps1] )) || __git_ps1 () {
-  echo "$(git_prompt_info)$(git_prompt_status)"
+	echo "$(git_prompt_info)$(git_prompt_status)"
 }
 
 PS1='%(!.%F{magenta}❯%f.)%F{%(?.green.red)}❯%f '
