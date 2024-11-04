@@ -18,3 +18,4 @@ ZSH_THEME_GIT_PROMPT_DIVERGED='<>'
 
 PS1='%(!.%F{magenta}❯%f.)%F{%(?.green.red)}❯%f '
 RPS1='%F{blue}%B%~%b%f$(__git_ps1 " %%F{green}%%f %s")'
+PS2='%F{cyan}\%f '
