@@ -2,6 +2,8 @@
 
 A simple, nice and useful theme.
 
+![Screenshot](https://i.imgur.com/LJCCnHQ.png)
+
 ## Installation
 
 You can simply source the plugin, first clone the repo:
